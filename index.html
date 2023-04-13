@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Calcular costos</h1>
+    <div class="contenedorMaximo">
+        <label for="nombreProducto">Nombre del producto</label>
+        <input type="text" id="nombreProducto">
+        <br>
+        <label for="material">costo de material</label>
+        <input type="number" value="0" id="material">
+        <br>
+        <label for="cantidadHoras">cuantas horas de impresion</label>
+        <input type="number" value="0" id="cantidadHoras">
+        <br>
+        <label for="pintado">Pintado?</label>
+        <select name="pintado" id="pintado">
+            <option>No</option>
+            <option>Si</option>
+
+        </select>
+        </input>
+        <br>
+        <label for="envoltura">costo Extra</label>
+        <input type="number" value="0" id="costoExtra">
+        <br>
+        <div class="botones">
+            <button id="calcular">calcular</button>
+            <button id="agregarPlanilla">agregar a planilla</button>
+        </div>
+
+
+        <div>
+            <div class="contenido">
+                <p>Gasto de filamento:</p>
+                <p id="resFilamento"></p>
+            </div>
+
+            <div class="contenido">
+                <p>Gasto de luz:</p>
+                <p id="resLuz"></p>
+            </div>
+
+            <div class="contenido">
+                <p>Ganancia Majora:</p>
+                <p id="resGanMajora"></p>
+            </div>
+
+            <div class="contenido">
+                <p>Ganancia Juanma:</p>
+                <p id="resGanJuanma"></p>
+            </div>
+
+            <div class="contenido">
+                <p>Ganancia Ludmi:</p>
+                <p id="resGanLudmi"></p>
+            </div>
+
+            <div class="contenido">
+                <p>Gasto total de la pieza:</p>
+                <p id="resCostoTotal"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cont">
+        <div class="planilla">
+            <p>Nombre</p>
+            <p>Filamento</p>
+            <p>Luz</p>
+            <p>Majora</p>
+            <p>Ganancia </p>
+            <p>extra</p>
+            <p>pintado</p>
+            <p>total</p>
+        </div>
+
+        <div class="contenedor-productos ">
+
+
+        </div>
+        <div class="planilla" id="totales">
+            <p>Cantidad de productos: </p>
+            <p>Gasto total de filamento: </p>
+            <p>Gasto total de luz:</p>
+            <p>Ganancia Majora:</p>
+            <p>Ganancia Juanma:</p>
+            <p>costos Extra Totales:</p>
+            <p>total Vendido: </p>
+        </div>
+
+
+        <button id="borrarPlanilla">borrar planilla</button>
+
+
+
+
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

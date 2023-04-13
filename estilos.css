@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: inherit;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+
+.contenido p {
+    display: inline;
+    font-size: 30px;
+
+}
+
+label {
+    font-size: 35px;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 27px;
+    color: #fff;
+    background: rgb(97, 55, 171);
+
+}
+
+select {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 20px;
+}
+
+.contenedorMaximo {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid green;
+    padding: 30px;
+    margin: 0 auto;
+    width: 85.7%;
+    margin-bottom: 20px;
+}
+
+.cont {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+
+
+.planilla {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.planilla p {
+    flex: 1;
+    text-align: center;
+}
+
+#borrarPlanilla {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+
+}
